@@ -13,13 +13,15 @@ body {
     font-family: $font-stack-one;
     height: 100%;
     overflow: auto;
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
 }
 .site-name {
     color: $accent-color;
 }
 .faded {
     color: $light-color;
-    font-weight: lighter;
+    //font-weight: lighter;
 }
 .page-suggestion {
     @media (max-width: $break-medium) {
@@ -45,9 +47,16 @@ body {
         height: 100%;
         font-size: 17px;
     }
+	p {
+		font-size: 24px;
+		font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+		font-weight: 300;
+		color: #666;
+		letter-spacing: .7px;
+	}
     span {
         padding: 0.05em 0.5em;
-        border-radius: 15px;
+        //border-radius: 15px;
         background: $accent-color;
         color: #fff;
     }
@@ -108,6 +117,8 @@ a:hover {
     background: #fff;
     padding: $base-spacing/4 $base-spacing;
     color: $medium-gray-color;
+	font-weight: bold;
+	font-size: 16px;
 }
 .button:hover {
     background: $accent-color;
@@ -142,6 +153,7 @@ footer {
     div {
         padding: $base-spacing/2.5;
         margin: 0px;
+		padding-top: 20px;
     }
     h2 {
         font-size: 20px;
@@ -167,6 +179,11 @@ footer {
     display: block;
     width: 100%;
     margin: $base-spacing 0;
+	.post-link {
+		font: bold 19px/1.7 "Helvetica Neue", helvetica, Arial, sans-serif;
+		color: #333;
+		text-transform: lowercase;
+	}
     .post-title {
         font-size: 25px;
     }
@@ -214,7 +231,7 @@ footer {
     height: $big-circle-size;
     //border: 2px solid #000;
     border-radius: $big-circle-size;
-    background-color: #000;
+    background-color: rgba(0, 0, 0, .7);
     padding: 0;
 }
 .back-inner {
@@ -251,7 +268,9 @@ footer {
 
 .post-date {
     font-family: 'Montserrat';
-    font-weight: lighter;
+	font-weight: 300;
+	color: #aaa;
+	text-transform: uppercase;
 }
 
 /* Styling
@@ -275,7 +294,7 @@ hr {
 }
 .about-img {
     height: $about-image-size;
-    width: $about-image-size;
+    width: 150px;//$about-image-size;
     border-radius: $about-image-size;
     margin: $base-spacing/3 $base-spacing/5;
     margin-right: $base-spacing;

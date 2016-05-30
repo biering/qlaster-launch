@@ -22,7 +22,7 @@ copyright: qlaster
 intro: true         # Tip: Remove the span from site_heading if intro is set to true
 # This will be displayed in your intro
 short_bio: >
-    Hi! <b>qlaster</b> is a interactive visualization of social media. This side is used to build qlaster with the help of the community. We will discuss specifications and implementations.
+    Hi! <b>qlaster</b> is an interactive visualization of social media. This side is used to build qlaster with the help of the community. We will discuss specifications and implementations.
 
 permalink: /:title.html
 
@@ -34,7 +34,7 @@ comments: true
 # Note that about_footer should be true if you want
 # to see author information at the bottom of each post
 about_stub: >
-    Keep this sentence less than 13 words or it won't look good.
+    qlaster - a interactive visualization of social media for the casual user
 
 about_footer: true
 
@@ -45,14 +45,14 @@ facebook_id: christoph.biering?
 favicon: true
 favicon_location: "images/favicon.ico"
 
-profile_picture: images/qlaster_logo.svg
+profile_picture: /qlaster-launch/images/qlaster_logo.svg
 paginate: 5
 paginate_path: "/page/:num"
 tracking_id: UA-69243698-7 # GA Tracking ID
 
 # Social Stuff | open graph and twitter cards
-og_image: "images/accent.png" # This will show in facebook thumbnails
-twitter_image: "http://ankitsultana.me/images/accent.png?1234" # This will show in twitter cards
+og_image: "images/qlaster_logo.svg" # This will show in facebook thumbnails
+twitter_image: "images/qlaster_logo.svg" # This will show in twitter cards
 
 ####################################
 ####################################
