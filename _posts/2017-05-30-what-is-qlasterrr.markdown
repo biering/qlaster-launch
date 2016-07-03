@@ -19,7 +19,7 @@ In the moment social information and relationships between them are only visuali
 
 Another big point is the large number of different social platforms. On the one hand this is a good thing, because many different platforms provides a lot of varying services. But on the other hand, especially when the user is on a network only because of connecting to his friends, it is annoying to communicate in so many different ways. Thats why we try to give the possibility[^1] to connect the account with other social services to use qlaster as something like a dashboard for social media. For example you can get the newest Tweets from Twitter while chatting with someone at Google+.
 
-#### The advantages in our concept.
+#### With our concept you can see alot of information in an awesome way.
 
 qlaster visualizes social media information, in an interactive graphical way. So you don't only see the different information, activities and events but can also manage them easily.
 Thereby it is possible to:
@@ -30,14 +30,15 @@ Thereby it is possible to:
 
 We use a cluster to visualize these contents. The different possibilities of visualization will be presented later and evaluated with the community. In this article the goal is to get feedback on the main idea.
 
+We focus different platforms where qlaster should work. Especially the mobile version is a challenge because of the size of the device.
 
 #### The Team.
 
-- **Christoph Biering**. _Founder_ - master student of computer science at the TU Dresden. I have started the project and partly 'll take care of the conception. Development of the webserver with the frontend.
+- **Christoph Biering**. _Founder_ - Master student of computer science at the TU Dresden. I have started the project and partly 'll take care of the conception. Development of the webserver with the frontend.
 
 - **Christian Winkel**. _Co-Founder_ - Master of computer science. Professional JavaEE developer. Developing on the backend JavaEE server.
 
-- **Lars Engeln**. _Co-Founder_ - master student of media computer science at the TU Dresden. Developing of the visualization through the cluster.
+- **Lars Engeln**. _Co-Founder_ - Master student of media computer science at the TU Dresden. Developing of the visualization through the cluster.
 
 
 #### What can you do for us?

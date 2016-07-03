@@ -57,64 +57,113 @@
             </nav>
             <div class="content container">
     <div class="post-date">
-        <time>May 30, 2016 </time>
+        <time>June 30, 2016 </time>
     </div>
     <h1 class="post-title">What Is Qlaster</h1>
     
-<p><strong>qlaster provides a platform to offer an interactive visualization of a large quantity of social media information, activities and events for the casual user.</strong></p>
+<h4 id="reinvent-social-media-with-streams-filter-for-content-not-for-the-user-everywhere">Reinvent social media with streams. Filter for content not for the user, everywhere.</h4>
 
-<h5 id="in-our-context-the-following-terms-means">In our context the following terms means:</h5>
+<p>In the moment we have many different social networks and services for different needs. At the one hand this is very good for the individuality and a wide spectrum of social media but on the other hand it’s hard to see only what you want to see and to don’t lose the overview of a wide range of information. Often you can only subsribe or connect to a specific user without focus on the content. What if you want to get specific content from a wide spectrum of sources? Register to different networks and subscribe every user who could have somethink to do with that topic? Why you don’t let <strong>qlaster</strong> do it for you?</p>
+
+<blockquote>
+  <p><strong>Our plan is to create a meta network which helps you to manage your newsfeed, chats and events and provides a modern interface with an interactive visualization.
+You can connect your account with all common social networks<sup id="fnref:1"><a href="#fn:1" class="footnote">1</a></sup> to refer news content, search users, chat, share content and get additional information. For that you can create the so called social streams on which you can attach filters to adapt them to your needs. With that you achieve that you only see what you want to see on your stream.</strong></p>
+</blockquote>
+
+<p>You can filter the networks in a massive range of content, from filtering the content of a user up to search a specific keyphrase in the content<sup id="fnref:2"><a href="#fn:2" class="footnote">2</a></sup>. You can also make your stream public to share it with your friends or the whole community to share the best selections of content.</p>
+
+<p>Suddenly you can have a <strong>organized</strong>, <strong>content-focused</strong> and <strong>productive</strong> newsfeed which you can tailor for your hobbies, work, just for fun or anything else. The internet and social media platforms are growing every second massively, we want to help to preserve the overview, and you even don’t have to be active on the this networks.
+We want optimize qlaster for mobile screen devices to get your newsfeed everywhere.</p>
+
+<p>The following infographic visualize the structure of the concept.</p>
+
+<p><img src="images/infographic.png" alt="info" title="info" /></p>
+
+<p><em>Figure 1. With qlaster you can create multiple streams to have a customized newsfeed provided by qlaster and other linked services like Twitter or Instagram.</em></p>
+
+<hr />
+
+<h3 id="visualize-to-reinvent-your-social-network-experience">Visualize to reinvent your social network experience</h3>
+
+<p>We think the visualization of common social networks like twitter or especially facebook are not suitable for the new internet of things. There are many other ways to provide a better view to the social media data. Today, all you have is a never ending list you can scroll.</p>
+
+<p>That’s the reason why we want to achieve a great and modern visualization of the different social media data to allow the user work with these information very fast and productive. We also planned a visualization about the connections between users and other users in a cluster-like representation. Otherwise we want to create an overview for your chat connections.
+But in the following you see a demo which visualize the newest feed in a specific stream. With that you can check the newest posts you get without scroll down the page until you think you reach already read posts. (!)</p>
+
+<div class="demo-wrapper">
+    <div class="tooltip">
+        <div class="avatar">
+            <img src="" />
+        </div>
+        <div class="info">
+            <div class="author"></div>
+            <div class="date"></div>
+        </div>
+        <div class="text"></div>
+        <div class="image">
+            <img src="" />
+        </div>
+    </div>
+    <svg id="newestFeedVisDemo" width="400" height="400"></svg>
+</div>
+
+<script src="js/jquery.min.js">{newline}</script>
+
+<script src="js/d3.min.js">{newline}</script>
+
+<script src="js/nodeGridDemo.js">{newline}</script>
+
+<script src="js/snippets/feedData.js">{newline}</script>
+
+<script src="js/snippets/newestFeedVisDemo.js">{newline}</script>
+
+<p><em>Figure 2. Here you see a small demo to visualize the newest feed of a stream. You can hover the nodes to see a
+description of the content. In the real application you would have some additional options, like sorting, get mor e information or refuse the post. The great advantage of this concept is that you see all new content at one view without scrolling down.</em></p>
+
+<!--![streams](images/stream-big.png "streams")-->
+
+<hr />
+
+<h3 id="the-features-and-what-we-have-planned-to-do">The features and what we have planned to do</h3>
+
 <ul>
-  <li><strong>information</strong>: data about the users and the relationships between them</li>
-  <li><strong>activities</strong>: for example when an other user posts a new topic or someone sends you a message</li>
-  <li><strong>events</strong>: could be a upcoming party or something like this</li>
+  <li>Create fully customizable newsfeed called stream to organize and control what you see</li>
+  <li>Share your stream with the community to evaluate the stream and let other users use it to</li>
+  <li>Link your account to multiple networks like Twitter, Facebook etc. to get a wide spectrum of information
+    <ul>
+      <li>You can use the networks even if you are not fully active in them</li>
+    </ul>
+  </li>
+  <li>Have an optimal experience on small mobile devices</li>
+  <li>Interactive visualizations of the topics: stream, chat, content sharing etc to have a modern, productive and fast interface to interact with these information
+    <ul>
+      <li>An interactive cluster view where you can organize your friends, create events, share content in specific groups and sort and filter the content for what you want</li>
+      <li>We want to create an interactive chat overview visualization to have a optimal chat view in realtime</li>
+    </ul>
+  </li>
 </ul>
 
-<canvas width="720" height="400"></canvas>
-<script src="js/snippets/anim01.js">{newline}</script>
+<hr />
 
-<p><em>Figure 1. A simple demo of a cluster between users</em></p>
-
-<h4 id="the-current-situation">The current situation.</h4>
-
-<p>The main big players in the area of social media, like Facebook, Twitter, Google+ and so on, irritate the functionality in this area very well. However, they don’t offer an <strong>optimal solution to display and interact with this large quantity of data</strong>. Often the views are limited only to lists when providing a lot of data. In addition meta information, like the <em>from-where-I-know-who relationship</em> are difficult to obtain.
-In the moment social information and relationships between them are only visualized for science use. We try to make it usable for the casual user.</p>
-
-<p>Another big point is the large number of different social platforms. On the one hand this is a good thing, because many different platforms provides a lot of varying services. But on the other hand, especially when the user is on a network only because of connecting to his friends, it is annoying to communicate in so many different ways. Thats why we try to give the possibility<sup id="fnref:1"><a href="#fn:1" class="footnote">1</a></sup> to connect the account with other social services to use qlaster as something like a dashboard for social media. For example you can get the newest Tweets from Twitter while chatting with someone at Google+.</p>
-
-<h4 id="the-advantages-in-our-concept">The advantages in our concept.</h4>
-
-<p>qlaster visualizes social media information, in an interactive graphical way. So you don’t only see the different information, activities and events but can also manage them easily.
-Thereby it is possible to:</p>
-
-<ol>
-  <li>provide an <em><strong>intuitive</strong></em> view to interact <em><strong>fast</strong></em> with the content,</li>
-  <li>work <em><strong>modern</strong></em> and <em><strong>productive</strong></em> with the social network,</li>
-  <li>display a lot of meta information<sup id="fnref:2"><a href="#fn:2" class="footnote">2</a></sup> very easily.</li>
-</ol>
-
-<p>We use a cluster to visualize these contents. The different possibilities of visualization will be presented later and evaluated with the community. In this article the goal is to get feedback on the main idea.</p>
-
-<h4 id="the-team">The Team.</h4>
+<h3 id="the-team">The Team</h3>
 
 <ul>
   <li>
-    <p><strong>Christoph Biering</strong>. <em>Founder</em> - master student of computer science at the TU Dresden. I have started the project and partly ‘ll take care of the conception. Development of the webserver with the frontend.</p>
+    <p><strong>Christoph Biering</strong>. <em>Founder</em> - Master student of computer science at the TU Dresden. I have started the project and partly ‘ll take care of the conception. Development of the webserver with the frontend.</p>
   </li>
   <li>
     <p><strong>Christian Winkel</strong>. <em>Co-Founder</em> - Master of computer science. Professional JavaEE developer. Developing on the backend JavaEE server.</p>
   </li>
   <li>
-    <p><strong>Lars Engeln</strong>. <em>Co-Founder</em> - master student of media computer science at the TU Dresden. Developing of the visualization through the cluster.</p>
+    <p><strong>Lars Engeln</strong>. <em>Co-Founder</em> - Master student of media computer science at the TU Dresden. Developing of the visualization concerns.</p>
   </li>
 </ul>
 
-<h4 id="what-can-you-do-for-us">What can you do for us?</h4>
+<hr />
 
-<p>The demo is already developed relatively far, but everyone in our team is working at qlaster as an addition to their employment or study. So we can’t develop the whole application without getting feedback for the idea.</p>
-
-<p>At this point we need you. What do you think about the idea? Can you imagine to use this application? Any feedback is greatly appreciated! Please leave a comment or send an email to the.chryb@icloud.com.
-Thank you very much!</p>
+<h3 id="what-can-you-do-for-us">What can YOU do for us?</h3>
+<p>We are only a small group of developer but we have the passion and skill to create …
+But we need you to evaluate the idea and concept …. So any feedback is greatly appreciated! Thank you.</p>
 
 <div class="footnotes">
   <ol>
@@ -122,7 +171,7 @@ Thank you very much!</p>
       <p>The connection to the various social services are limited to the provided api of them. <a href="#fnref:1" class="reversefootnote">&#8617;</a></p>
     </li>
     <li id="fn:2">
-      <p>Meta information: information that could display indirectly in the visualization like the activities of users, circles of friends or something like that. <a href="#fnref:2" class="reversefootnote">&#8617;</a></p>
+      <p>For example you want to filter all Twitter tweets with the keyphrase ‘30min Workout’ you will get all of them without subscribe to a specific user. There are many other possibilties to customize the streams but this is explained later. <a href="#fnref:2" class="reversefootnote">&#8617;</a></p>
     </li>
   </ol>
 </div>
