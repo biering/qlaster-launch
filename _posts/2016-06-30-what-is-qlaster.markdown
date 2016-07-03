@@ -8,7 +8,7 @@ You can connect your account with all common social networks[^1] to refer news c
 
 You can filter the networks in a massive range of content, from filtering the content of a user up to search a specific keyphrase in the content[^2]. You can also make your stream public to share it with your friends or the whole community to share the best selections of content.
 
-Suddenly you can have a **organized**, **content-focused** and **productive** newsfeed which you can tailor for your hobbies, work, just for fun or anything else. The internet and social media platforms are growing every second massively, we want to help to preserve the overview, and you even don't have to be active on the this networks.
+Suddenly you can have a **organized**, **content-focused** and **productive** newsfeed which you can tailor for your hobbies, work, just for fun or everything else. The internet and social media platforms are growing every second massively, we want to help to preserve the overview, and you even don't have to be active on the this networks.
 We want optimize qlaster for mobile screen devices to get your newsfeed everywhere.
 
 The following infographic visualize the structure of the concept.

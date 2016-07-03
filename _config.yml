@@ -36,7 +36,7 @@ comments: true
 # Note that about_footer should be true if you want
 # to see author information at the bottom of each post
 about_stub: >
-    qlaster - a interactive visualization of social media for the casual user
+    qlaster - Filter for the content not for the user, everywhere.
 
 about_footer: true
 
