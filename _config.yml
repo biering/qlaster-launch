@@ -50,7 +50,7 @@ favicon_location: "images/favicon.ico"
 profile_picture: /qlaster-launch/images/qlaster_logo.svg
 paginate: 5
 paginate_path: "/page/:num"
-tracking_id: UA-69243698-7 # GA Tracking ID
+tracking_id: UA-80178491-1 # GA Tracking ID
 
 # Social Stuff | open graph and twitter cards
 og_image: "images/qlaster_logo.svg" # This will show in facebook thumbnails
