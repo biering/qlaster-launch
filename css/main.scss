@@ -6,6 +6,10 @@ p {
     color: #333 !important;
 }
 
+#intro h2 {
+    margin-top: 40px;
+}
+
 #newestFeedVisDemo {
     float: right;
 
@@ -122,6 +126,8 @@ a[data-tooltip]:before {
     content: attr(data-tooltip);
     white-space: nowrap;
     display: none;
+    font-weight: bold;
+    font-style: normal;
 }
 
 a[data-tooltip]:after {

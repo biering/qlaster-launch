@@ -41,17 +41,32 @@
         }
 
         setTimeout(function () {
-            addNode(feedData[i]);
+            addNode(feedData[i], i);
 
             timeout(i + 1);
         }, feedData[i].t);
     }
 
-    function addNode(data) {
+    function addNode(data, i) {
         layout.push({
             scale: 8
             //scale: Math.pow(Math.random(), 2) * 10 + 3
         });
+
+        if (i === 0) {
+            var tooltip = $('.tooltip');
+            tooltip.find('.avatar').find('img').attr('src', data.picture.thumbnail);
+            tooltip.find('.author').html(data.name.first + ' ' + data.name.last);
+            tooltip.find('.date').html(data.date);
+            tooltip.find('.text').html(data.text);
+            if (data.image) {
+                tooltip.find('.image').find('img').attr('src', data.image);
+                tooltip.find('.image').find('img').css('display', 'block');
+            } else
+                tooltip.find('.image').find('img').css('display', 'none');
+
+            tooltip.css('display', 'block');
+        }
 
         nodes = nodes
             .data(layout.nodes(), function (d) {

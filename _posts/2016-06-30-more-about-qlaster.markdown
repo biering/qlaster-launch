@@ -50,7 +50,7 @@ But in the following you see a demo which visualize the newest feed in a specifi
 <script src='js/nodeGridDemo.js'>{newline}</script>
 <script src='js/snippets/feedData.js'>{newline}</script>
 <script src='js/snippets/newestFeedVisDemo.js'>{newline}</script>
-_Figure 1. Here you see a small demo of a stream. You can hover the nodes to see a
+_Figure 1. Here you see a small <a href="#" data-tooltip="The demo is to show the idea but isn't finished yet.">demo</a> of a stream. You can hover the nodes to see a
 description of the content. In the real application you would have some additional options, like sorting, getting more information or refusing the post. The great advantage of this concept is to see all new content at a glance without scrolling down._
 
 <!--![streams](images/stream-big.png "streams")-->

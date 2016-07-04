@@ -48,7 +48,7 @@ github_username: Chryb
 facebook_id: christoph.biering
 
 favicon: true
-favicon_location: "images/favicon.ico"
+favicon_location: /qlaster-launch/images/qlaster_logo.svg
 
 profile_picture: /qlaster-launch/images/qlaster_logo.svg
 paginate: 5
