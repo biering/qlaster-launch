@@ -8,7 +8,7 @@ baseurl: "/qlaster-launch"
 site_heading: >
     <span class="faded">qlaster</span> - launch
 
-email: the.chryb@icloud.com
+email: qlaster@protonmail.com
 author: Christoph Biering
 # This description will show up in google search results
 # (for index page) etc.
@@ -45,7 +45,7 @@ about_footer: true
 
 twitter_username: Chryb_
 github_username: Chryb
-facebook_id: christoph.biering?
+facebook_id: christoph.biering
 
 favicon: true
 favicon_location: "images/favicon.ico"

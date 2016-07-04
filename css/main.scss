@@ -104,3 +104,37 @@ p {
 .node {
     cursor: pointer;
 }
+
+a {
+    position: relative;
+}
+
+a[data-tooltip]:before {
+    position: absolute;
+    left: 0;
+    top: -40px;
+    background-color: rgba(0, 0, 0, .9);
+    color: #ffffff;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 5px;
+    padding: 0 15px;
+    content: attr(data-tooltip);
+    white-space: nowrap;
+    display: none;
+}
+
+a[data-tooltip]:after {
+    position: absolute;
+    left: 15px;
+    top: -10px;
+    border-top: 7px solid rgba(0, 0, 0, .9);
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    content: "";
+    display: none;
+}
+
+a[data-tooltip]:hover:after, a[data-tooltip]:hover:before {
+    display: block;
+}
