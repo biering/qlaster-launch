@@ -1,10 +1,10 @@
 
-#### Reinvent social media with streams. Filter for content not for the user, everywhere.
+<!--#### Reinvent social media with streams. Filter for content not for the user, everywhere.-->
 
-In the moment we have many different social networks and services for different needs. At the one hand this is very good for the individuality and a wide spectrum of social media but on the other hand it's hard to see only what you want to see and to don't lose the overview of a wide range of information. Often you can only subsribe or connect to a specific user without focus on the content. What if you want to get specific content from a wide spectrum of sources? Register to different networks and subscribe every user who could have somethink to do with that topic? Why you don't let **qlaster** do it for you?
+Nowadays we have many different social networks and services for different needs. At the one hand this is very good for the individuality and a wide spectrum(!) of social media but on the other hand it's hard to see only what you want to see and to don't lose the overview of a wide range of information. Often you can only subscribe or connect to a specific user without focus on the content. What if you want to get specific content from a wide spectrum of sources? Register to different networks and subscribe every user who could have something to do with that topic? Why you don't let **qlaster** do that for you?
 
-> **Our plan is to create a meta network which helps you to manage your newsfeed, chats and events and provides a modern interface with an interactive visualization.
-You can connect your account with all common social networks[^1] to refer news content, search users, chat, share content and get additional information. For that you can create the so called social streams on which you can attach filters to adapt them to your needs. With that you achieve that you only see what you want to see on your stream.**
+> **Our plan is to create a meta network which helps you to manage your newsfeed, chats and events and providing a more modern interface with an interactive visualization.
+You can connect your account with all common social networks[^1] to browse your news, users, chats and to share content yourself. For that you can create the so called social streams on which you can attach filters to adapt them to your needs. With that you achieve that you only see what you want to see on your stream.**
 
 You can filter the networks in a massive range of content, from filtering the content of a user up to search a specific keyphrase in the content[^2]. You can also make your stream public to share it with your friends or the whole community to share the best selections of content.
 
