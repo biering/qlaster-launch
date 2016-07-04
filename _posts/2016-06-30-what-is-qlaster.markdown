@@ -21,10 +21,13 @@ _Figure 1. With qlaster you can create multiple streams to have a customized new
 
 ### Visualize to reinvent your social network experience
 
-We think the visualization of common social networks like twitter or especially facebook are not suitable for the new internet of things. There are many other ways to provide a better view to the social media data. Today, all you have is a never ending list you can scroll.
+We think the visualization of common social networks are not suitable for the modern web. There are many other ways to provide a better view to the social media data. Today, all you got is a never ending list to scroll.
 
-That's the reason why we want to achieve a great and modern visualization of the different social media data to allow the user work with these information very fast and productive. We also planned a visualization about the connections between users and other users in a cluster-like representation. Otherwise we want to create an overview for your chat connections.
-But in the following you see a demo which visualize the newest feed in a specific stream. With that you can check the newest posts you get without scroll down the page until you think you reach already read posts. (!)
+That's the reason why we want to achieve a great and modern visualization for different social media data allowing the user to work with these information in a very fast and productive way. Also we were planning a network visualization about the connections between users in a cluster-like representation. Otherwise we want to create an overview for your chat connections.
+But in the following you see a demo which visualize the newest feed in a specific stream. With that you can check the newest posts you got without scrolling down the page.
+
+
+<!-- aker, erste gleich aktiv -->
 
 <div class="demo-wrapper">
     <div class="tooltip">
@@ -49,23 +52,24 @@ But in the following you see a demo which visualize the newest feed in a specifi
 <script src='js/nodeGridDemo.js'>{newline}</script>
 <script src='js/snippets/feedData.js'>{newline}</script>
 <script src='js/snippets/newestFeedVisDemo.js'>{newline}</script>
-_Figure 2. Here you see a small demo to visualize the newest feed of a stream. You can hover the nodes to see a
-description of the content. In the real application you would have some additional options, like sorting, get mor e information or refuse the post. The great advantage of this concept is that you see all new content at one view without scrolling down._
+_Figure 1. Here you see a small demo of a stream. You can hover the nodes to see a
+description of the content. In the real application you would have some additional options, like sorting, getting more information or refusing the post. The great advantage of this concept is to see all new content at a glance without scrolling down._
 
 <!--![streams](images/stream-big.png "streams")-->
 
 ---
 
-### The features and what we have planned to do
+### The features and what we have been planning to do
 
-- Create fully customizable newsfeed called stream to organize and control what you see
-- Share your stream with the community to evaluate the stream and let other users use it to
+- Creating fully customizable streams to organize and control what you want to see
 - Link your account to multiple networks like Twitter, Facebook etc. to get a wide spectrum of information
     - You can use the networks even if you are not fully active in them
-- Have an optimal experience on small mobile devices
-- Interactive visualizations of the topics: stream, chat, content sharing etc to have a modern, productive and fast interface to interact with these information
-    - An interactive cluster view where you can organize your friends, create events, share content in specific groups and sort and filter the content for what you want
+- Having an optimal experience on small mobile devices due to space filling visualizations
+- Interactive visualizations for streams, chat, content sharing etc. to have a modern, productive and fast interface to interact with these information
+    - An interactive cluster view where you can organize your friends, create events, share content in specific groups and sort and filter the content for what you want to see
     - We want to create an interactive chat overview visualization to have a optimal chat view in realtime
+- register user per email.. automatische email senden bei event etc.
+    // chat zwischen email and qlaster user
 
 ---
 
