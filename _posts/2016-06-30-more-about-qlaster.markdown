@@ -1,13 +1,13 @@
 
-Nowadays we have many different social networks and services for different needs. At the one hand this is very good for the individuality and a broad range of social media but on the other hand it's hard to see only what you want to see and to don't lose the overview. Often you can only subscribe or connect to a specific user without focus on the content. What if you want to get specific content from a wide spectrum of sources? Register to different networks and subscribe every user who could have something to do with that topic? Why you don't let **qlaster** do that for you?
+Nowadays we have many different social networks and services for different needs. At the one hand this is very good for the individuality and a broad range of social media but on the other hand it's hard to see only what you want to see and to not lose the overview. Often you can only subscribe or connect to a specific user without focusing on the content. What if you want to get specific content from a wide spectrum of sources? Register to different networks and subscribe every user who could have something to do with that topic? Why you don't let **qlaster** do that for you?
 
 > **Our plan is to create a meta network which helps you to manage your newsfeed, chats and events and providing a more modern interface with an interactive visualization.<br/>
 You can connect your account with all <a href="#" data-tooltip="The usage is limited to the provided APIs">common social networks</a> to browse news, users, chats and to share content yourself. For that you can create social streams on which you have the possibilty to attach filters to adapt them (the streams) to your needs. With that you could achieve only seeing what you want to see on your stream actually.**
 
 You can filter the networks in a massive range of content, from filtering the content of a user up to search a specific keyphrase. You can also make your stream public to share it with your friends or the whole community.
 
-Suddenly you can have a **organized**, **content-focused** and **productive** newsfeed which you can tailor for your hobbies, work, just for fun or everything else. The internet and social media platforms are growing every second massively, we want to help to preserve the overview, and you even don't have to be active on these networks directly.
-We want to optimize qlaster for mobile screen devices to bringing your streams everywhere.
+Suddenly you can have an **organized**, **content-focused** and **productive** newsfeed which you can tailor for your hobbies, work, just for fun or for everything else. The internet and social media platforms are growing every second massively, we want to help to preserve the overview, and you don't even have to be active on these networks directly.
+We want to optimize qlaster for mobile screen devices to bring your streams everywhere.
 
 <!--The following infographic visualize the structure of the concept.
 
@@ -19,10 +19,10 @@ _Figure 1. With qlaster you can create multiple streams to have a customized new
 
 ### Visualize to reinvent your social network experience
 
-We think the visualization of common social networks are not suitable for the modern web. There are many other ways to provide a better view to the social media data. Today, all you got is a never ending list to scroll.
+We think the visualization of common social networks is not suitable for the modern web. There are many other ways to provide a better view to the social media data. Today, all you got is a never ending list to scroll.
 
 That's the reason why we want to achieve a great and modern visualization for different social media data allowing the user to work with these information in a very fast and productive way. Also we were planning a network visualization about the connections between users in a cluster-like representation. Otherwise we want to create an overview for your chat connections.
-But in the following you see a demo which visualize the newest feed in a specific stream. With that you can check the newest posts you got without scrolling down the page.
+In the following you see a demo which visualize the newest feed in a specific stream. With that you can check the newest posts you got without scrolling down the page.
 
 
 <!-- aker, erste gleich aktiv -->
@@ -61,10 +61,10 @@ description of the content. In the real application you would have some addition
 
 - Creating fully customizable streams to organize and control what you want to see
 - Link your account to multiple networks like Twitter, Facebook etc. to get a wide spectrum of data
-    - You can use the networks even if you are not fully active in them
+    - You can use the networks even if you are not directly active there
 - Having an optimal experience on small mobile devices due to space filling visualizations
 - Interactive visualizations for streams, chat, content sharing etc. to have a modern, productive and fast interface to interact with these information
-- Connect to user with the email address even if they are not on qlaster
+- Connection to users with the help of email addresses even when they aren't on qlaster
 
 <!--- An interactive cluster view where you can organize your friends, create events, share content in specific groups and sort and filter the content for what you want to see
 - We want to create an interactive chat overview visualization to have a optimal chat view in realtime-->

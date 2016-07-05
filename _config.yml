@@ -13,7 +13,7 @@ author: Christoph Biering
 # This description will show up in google search results
 # (for index page) etc.
 description: >
-    a interactive visualization of social media
+    qlaster - your overall social insight
 
 # This will what will show against &copy; in the footer
 copyright: qlaster
@@ -25,7 +25,7 @@ short_bio: >
     Hi! Nowadays we have many different social networks and services for different needs.
     What if you could link your account with various common social networks and create, share and adapt your newsfeed, so called streams, to your needs to only see what you want to see?
     Filter for the content not for the user, everywhere.
-    We want to reinvent social media with <b>qlaster</b>.
+    We want to reinvent social media with <b>qlaster and build your overall social insight</b>.
     <br /><br />
     This page is used to build qlaster with the help of the community. We will discuss ideas, specifications and implementations.
 
@@ -39,7 +39,8 @@ comments: true
 # Note that about_footer should be true if you want
 # to see author information at the bottom of each post
 about_stub: >
-    qlaster - Filter for the content not for the user, everywhere.
+    qlaster - your overall social insight
+#qlaster - A content-based approach to  Filter for the content not for the user, everywhere.
 
 about_footer: true
 
