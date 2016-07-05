@@ -3,6 +3,7 @@
 (function () {
     var grid = window.NodeGrid();
     var limit = 35;
+    var running = false;
 
     var colors = [
         '#6fa055',
@@ -43,6 +44,10 @@
     // sachen löschen
     // und neu hinzufügen auch dupl
     window.startDemo = function() {
+        if (running)
+            return;
+
+        running = true;
         timeout(0);
     };
 
@@ -75,8 +80,9 @@
     function addNode(data, i) {
         if (layout.nodes().length > limit) {
             // erstmal to remove node ersetzen, wenn keiner da ist dann shift
-            layout.shift();
-            update();
+            //layout.shift();
+            //update();
+            return;
         }
 
         var c = Math.floor(Math.random() * colors.length);
