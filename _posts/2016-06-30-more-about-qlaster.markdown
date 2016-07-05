@@ -45,17 +45,39 @@ In the following you see a demo which visualize the newest feed in a specific st
         </div>
     </div>
     <svg id="newestFeedVisDemo" width="400" height="400"></svg>
-</div>
+
+    <div class="demo-post">
+        <div class="wrapper">
+            <div class="user-img">
+                <img src="https://randomuser.me/api/portraits/med/women/69.jpg"/>
+            </div>
+            <div class="author">
+                Jon Doe
+            </div>
+            <div class="info">
+                <i class="ion-reply"></i>
+                <i class="ion-heart"></i>
+                <div class="created-at">
+                    02 Jul. 17:34
+                </div>
+            </div>
+            <div class="text">
+                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+            </div>
+        </div>
+    </div>
+</div><br /><br /><br /><br />
 
 <script src='js/jquery.min.js'>{newline}</script>
 <script src='js/d3.min.js'>{newline}</script>
 <script src='js/nodeGridDemo.js'>{newline}</script>
 <script src='js/snippets/feedData.js'>{newline}</script>
 <script src='js/snippets/newestFeedVisDemo2.js'>{newline}</script>
-_Figure 1. Here you see a small <a href="#" data-tooltip="The demo is to show the idea but isn't finished yet.">demo</a> of a stream. You can hover the nodes to see a
-description of the content. In the real application you would have some additional options, like sorting, getting more information or refusing the post. The great advantage of this concept is to see all new content at a glance without scrolling down. The color could show different aspects._
 
-<!--![streams](images/stream-big.png "streams")-->
+_Figure 1. Here you see a small <a href="#" data-tooltip="The demo is to show the idea but isn't finished yet.">demo</a> of a stream. You can hover the nodes to see a
+description of the content. In the real application you would have some additional options but this is explained later. The great advantage of this concept is to see all new content at a glance without scrolling down. The color could show different aspects._
+
+
 
 ---
 
