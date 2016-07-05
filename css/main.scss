@@ -6,23 +6,49 @@ p {
     color: #333 !important;
 }
 
+#startDemo {
+    display: none;
+}
+
 #intro h2 {
     margin-top: 40px;
+}
+
+.action-sort {
+    position: absolute;
+    right: 50px;
+    border: 1px solid #fafafa;
+    border-radius: 3px;
+    font-weight: bold;
+    padding: 8px 15px 8px 15px;
+    text-transform: uppercase;
+    cursor: pointer;
+    color: #bbb;
+    transition: all .4s;
+
+    &:hover {
+        border-color: rgba(0, 0, 0, .6);
+        color: #333;
+        transition: all .4s;
+    }
 }
 
 #newestFeedVisDemo {
     float: right;
 
+    .node {
+        stroke-width: 0px;
+    }
+
     .hovered {
         stroke-width: 18px;
         stroke: rgba(0, 0, 0, 0.3);
-        transition: all .4s;
+        transition: .4s stroke-width;
     }
 
-    .toRemove {
-        stroke-width: 0;
+    .visited {
         opacity: .5;
-        transition: all .4s;
+        transition: .4s opacity;
     }
 }
 

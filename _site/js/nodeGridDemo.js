@@ -1,11 +1,4 @@
 
-var colors = [
-    '#6fa055',
-    '#4c6f91',
-    '#a3466c',
-    '#c94a70'
-];
-
 window.NodeGrid = function () {
     var d3 = window.d3;
 
@@ -27,7 +20,8 @@ window.NodeGrid = function () {
             localHeight,
             sort,
             rows,
-            cols;
+            cols,
+            fixed = true;
 
         var spawn = {
             x: 0,
@@ -70,12 +64,20 @@ window.NodeGrid = function () {
             return grid;
         };
 
-        grid.rows = function () {
-            return rows;
+        grid.rows = function (value) {
+            if (!arguments.length)
+                return rows;
+            rows = value;
+            grid.update();
+            return grid;
         };
 
-        grid.cols = function () {
-            return cols;
+        grid.cols = function (value) {
+            if (!arguments.length)
+                return cols;
+            cols = value;
+            grid.update();
+            return grid;
         };
 
         grid.size = function () {
@@ -100,12 +102,19 @@ window.NodeGrid = function () {
             for (var i = 0, l = nodes.length; i < l; i++) {
                 var node = nodes[i];
                 if (node.id === nodeId) {
-                    nodes.splice(i, 1);
-                    grid.tick();
+                    grid.nodes().splice(i, 1);
                     return grid.update();
                 }
             }
         };
+
+
+        grid.shift = function () {
+            var toShift = nodes[0].id;
+            if (toShift !== null && toShift !== undefined)
+                grid.remove(toShift);
+        };
+
 
         grid.add = function (arr) {
             for (var i = 0, l = arr.length; i < l; i += 1)
@@ -130,8 +139,6 @@ window.NodeGrid = function () {
             node.gx = node.gx || spawn.x;
             node.gy = node.gy || spawn.y;
 
-            node.color = colors[Math.floor(Math.random() * colors.length)];
-
             index[node.id] = node;
             nodes.push(node);
 
@@ -148,11 +155,18 @@ window.NodeGrid = function () {
         //  - networks
         //  - friends
         //  - search string
+        //
+        //  with left right key jump through unsean
         grid.update = function () {
             var gridLength = nodes.length;
 
-            rows = Math.max(Math.floor(Math.sqrt(gridLength * height / width)), 1);
-            cols = Math.ceil(gridLength / rows);
+            if (fixed) {
+                cols = Math.ceil(gridLength / rows);
+            } else {
+                rows = Math.max(Math.floor(Math.sqrt(gridLength * height / width)), 1);
+                cols = Math.ceil(gridLength / rows);
+            }
+
             localWidth = Math.min(width, diameter * cols);
             localHeight = Math.min(height, diameter * rows);
 

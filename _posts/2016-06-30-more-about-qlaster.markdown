@@ -17,7 +17,9 @@ _Figure 1. With qlaster you can create multiple streams to have a customized new
 
 ---
 
+
 ### Visualize to reinvent your social network experience
+<div id="startDemo"></div>
 
 We think the visualization of common social networks is not suitable for the modern web. There are many other ways to provide a better view to the social media data. Today, all you got is a never ending list to scroll.
 
@@ -28,6 +30,7 @@ In the following you see a demo which visualize the newest feed in a specific st
 <!-- aker, erste gleich aktiv -->
 
 <div class="demo-wrapper">
+    <div class="action-sort">Sort</div>
     <div class="tooltip">
         <div class="avatar">
             <img src=""/>
@@ -44,14 +47,13 @@ In the following you see a demo which visualize the newest feed in a specific st
     <svg id="newestFeedVisDemo" width="400" height="400"></svg>
 </div>
 
-
 <script src='js/jquery.min.js'>{newline}</script>
 <script src='js/d3.min.js'>{newline}</script>
 <script src='js/nodeGridDemo.js'>{newline}</script>
 <script src='js/snippets/feedData.js'>{newline}</script>
-<script src='js/snippets/newestFeedVisDemo.js'>{newline}</script>
+<script src='js/snippets/newestFeedVisDemo2.js'>{newline}</script>
 _Figure 1. Here you see a small <a href="#" data-tooltip="The demo is to show the idea but isn't finished yet.">demo</a> of a stream. You can hover the nodes to see a
-description of the content. In the real application you would have some additional options, like sorting, getting more information or refusing the post. The great advantage of this concept is to see all new content at a glance without scrolling down._
+description of the content. In the real application you would have some additional options, like sorting, getting more information or refusing the post. The great advantage of this concept is to see all new content at a glance without scrolling down. The color could show different aspects._
 
 <!--![streams](images/stream-big.png "streams")-->
 
