@@ -149,14 +149,33 @@
         }
     }
 
+    // falls alle visited einfach +1
     function highlightNextNode() {
+        var allVisited = true;
         var index = (currentHighlighted) ? parseInt(currentHighlighted) : 0;
-        for (var i = index, l = layout.nodes().length; i < l; i++) {
-            var node = layout.nodes()[i];
-            if (!node.visited) {
-                highlightNode(d3.select('#node-' + node.id), node);
-                return;
+        var node;
+
+        for (var j = 0; j < layout.nodes().length; j++) {
+            if (!layout.nodes()[j].visited) {
+                allVisited = false;
+                break;
             }
+        }
+
+        if (!allVisited) {
+            for (var i = index, l = layout.nodes().length; i < l; i++) {
+                node = layout.nodes()[i];
+                if (!node.visited) {
+                    highlightNode(d3.select('#node-' + node.id), node);
+                    return;
+                }
+            }
+        }
+
+        else {
+            index++;
+            node = layout.nodes()[index];
+            highlightNode(d3.select('#node-' + node.id), node);
         }
     }
 
