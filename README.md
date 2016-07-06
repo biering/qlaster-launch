@@ -1,2 +1,2 @@
 # qlaster-launch
-qlaster - A interactive visualization of social media.
+qlaster - your overall social insight
