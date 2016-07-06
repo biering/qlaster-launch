@@ -77,7 +77,9 @@ In the following you see a demo which visualize the newest feed in a specific st
 <script src='js/snippets/feedData.js'>{newline}</script>
 <script src='js/snippets/newestFeedVisDemo2.js'>{newline}</script>
 
-_Figure 1. Here you see a small <a href="#" data-tooltip="The demo is to show the idea but isn't finished yet.">demo</a> of a stream. You can hover the nodes to see a
+<div style="text-align:center;"><img src="images/dots.png"/></div>
+
+_Here you see a small <a href="#" data-tooltip="The demo is to show the idea but isn't finished yet.">demo</a> of a stream. You can hover the nodes to see a
 description of the content. In the real application you would have some additional options but this is explained later. The great advantage of this concept is to see all new content at a glance without scrolling down. The color could show different aspects._
 
 
