@@ -14,8 +14,8 @@
     ];
 
     var layout = grid()
-        .width(400 - 20)
-        .height(400 - 20)
+        .width(700 - 40)
+        .height(400 - 40)
         .radius(80)
         .speed(0.001)
         .align(0)
@@ -29,8 +29,8 @@
     var svg = d3.select('#newestFeedVisDemo');
 
     var group = svg
-        .append('g')
-        .attr('transform', 'translate(70,70)');
+        .append('g');
+        //.attr('transform', 'translate(70,70)');
 
     var nodes = group
         .selectAll('.node')
@@ -82,13 +82,13 @@
 
         if (data) {
             setTimeout(function () {
-                addNode(data, i);
+                addNode(data);
                 timeout(i + 1);
             }, data.t);
         }
     }
 
-    function addNode(data, i) {
+    function addNode(data) {
         if (layout.nodes().length > limit) {
             // erstmal to remove node ersetzen, wenn keiner da ist dann shift
             //layout.shift();
@@ -105,15 +105,15 @@
             data: data
         });
 
-        if (i === 0) {
-            displayTooltip(data);
-        }
-
         update();
     }
 
-    function displayTooltip(data) {
+    function displayTooltip(data, x, y) {
         var tooltip = $('.tooltip');
+
+        tooltip.css('top', y);
+        tooltip.css('left', x + 100);
+
         tooltip.find('.avatar').find('img').attr('src', data.picture.thumbnail);
         tooltip.find('.author').html(data.name.first + ' ' + data.name.last);
         tooltip.find('.date').html(data.date);
@@ -136,17 +136,20 @@
     }
 
     // hier mit gedächtnis?
-    function highlightPreviousNode() {
-        makeVisited();
-        var index = (currentHighlighted) ? parseInt(currentHighlighted) - 1 : 0;
+    function highlightPreviousNode(i) {
+        var index = (i === undefined) ?
+            (currentHighlighted) ? parseInt(currentHighlighted) - 1 : 0
+            : i;
+
         var node = layout.nodes()[index];
         if (node) {
             highlightNode(d3.select('#node-' + node.id), node);
+        } else {
+            highlightPreviousNode(index - 1);
         }
     }
 
     function highlightNextNode() {
-        makeVisited();
         var index = (currentHighlighted) ? parseInt(currentHighlighted) : 0;
         for (var i = index, l = layout.nodes().length; i < l; i++) {
             var node = layout.nodes()[i];
@@ -158,10 +161,14 @@
     }
 
     function highlightNode($node, d) {
+        makeVisited();
+
         currentHighlighted = d.id;
         d.visited = true;
         var data = d.data;
-        displayTooltip(data);
+        var clientRect = $node[0][0].getBBox();
+        console.log(clientRect);
+        displayTooltip(data, clientRect.x, clientRect.y - 100);
         $node
             .attr('class', 'node hovered')
             .style('stroke', function (d) {
@@ -193,6 +200,7 @@
             })
             .on('mouseout', function (d) {
                 d3.select(this).attr('class', 'node visited');
+                $('.tooltip').css('display', 'none');
             })
             .transition()
                 .duration(2000)

@@ -15,7 +15,7 @@
                 "medium": "https://randomuser.me/api/portraits/med/women/69.jpg",
                 "thumbnail": "https://randomuser.me/api/portraits/thumb/women/69.jpg"
             },
-            date: '13th Jun.',
+            date: '02 Jul. 17:34',
             text: 'That moment when you`re watching a dancing show with your friends. Inside: Imagining yourself doing those moves. Outside: Poker face.',
             image: 'images/pic1.jpg'
         },
@@ -31,7 +31,7 @@
                 "medium":"https://randomuser.me/api/portraits/med/women/6.jpg",
                 "thumbnail":"https://randomuser.me/api/portraits/thumb/women/6.jpg"
             },
-            date: '23th Jun.',
+            date: '03 Jul. 12:04',
             text: "What is love? Those who play with it call it a game. Those who don't have it call it a dream. And me, I call it you."
         },
         {
@@ -46,7 +46,7 @@
                 "medium":"https://randomuser.me/api/portraits/med/women/6.jpg",
                 "thumbnail":"https://randomuser.me/api/portraits/thumb/women/6.jpg"
             },
-            date: '13th Jun.',
+            date: '03 Jul. 17:34',
             text: '"I have trains ran on me all the time." - Railroads. Or my ex-girlfriend.'
         },
         {
@@ -61,7 +61,7 @@
                 "medium":"https://randomuser.me/api/portraits/med/women/82.jpg",
                 "thumbnail":"https://randomuser.me/api/portraits/thumb/women/82.jpg"
             },
-            date: '13th Jun.',
+            date: '02 Jul. 17:34',
             text: 'Back to the candy shop because this everlasting gobstopper has run out!',
             image: 'images/pic2.jpg'
         },
@@ -77,7 +77,7 @@
                 "medium":"https://randomuser.me/api/portraits/med/women/27.jpg",
                 "thumbnail":"https://randomuser.me/api/portraits/thumb/women/27.jpg"
             },
-            date: '13th Jun.',
+            date: '02 Jul. 17:34',
             text: "Think you're normal? Look in the mirror and say, 'I like to watch___' followed by the last thing you typed into the YouPorn search engine.",
             image: 'images/pic3.jpg'
             //image: 'https://unsplash.it/350/200/?random'
@@ -95,7 +95,7 @@
                 "medium": "https://randomuser.me/api/portraits/med/women/69.jpg",
                 "thumbnail": "https://randomuser.me/api/portraits/thumb/women/69.jpg"
             },
-            date: '13th Jun.',
+            date: '02 Jul. 17:34',
             text: 'That moment when you`re watching a dancing show with your friends. Inside: Imagining yourself doing those moves. Outside: Poker face.',
             image: 'images/pic1.jpg'
         },
@@ -111,7 +111,7 @@
                 "medium":"https://randomuser.me/api/portraits/med/women/6.jpg",
                 "thumbnail":"https://randomuser.me/api/portraits/thumb/women/6.jpg"
             },
-            date: '23th Jun.',
+            date: '02 Jul. 17:34',
             text: "What is love? Those who play with it call it a game. Those who don't have it call it a dream. And me, I call it you."
         },
         {
@@ -126,7 +126,7 @@
                 "medium":"https://randomuser.me/api/portraits/med/women/6.jpg",
                 "thumbnail":"https://randomuser.me/api/portraits/thumb/women/6.jpg"
             },
-            date: '13th Jun.',
+            date: '02 Jul. 17:34',
             text: '"I have trains ran on me all the time." - Railroads. Or my ex-girlfriend.'
         },
         {
@@ -141,7 +141,7 @@
                 "medium":"https://randomuser.me/api/portraits/med/women/82.jpg",
                 "thumbnail":"https://randomuser.me/api/portraits/thumb/women/82.jpg"
             },
-            date: '13th Jun.',
+            date: '02 Jul. 17:34',
             text: 'Back to the candy shop because this everlasting gobstopper has run out!',
             image: 'images/pic2.jpg'
         },
@@ -157,7 +157,7 @@
                 "medium":"https://randomuser.me/api/portraits/med/women/27.jpg",
                 "thumbnail":"https://randomuser.me/api/portraits/thumb/women/27.jpg"
             },
-            date: '13th Jun.',
+            date: '02 Jul. 17:34',
             text: "Think you're normal? Look in the mirror and say, 'I like to watch___' followed by the last thing you typed into the YouPorn search engine.",
             image: 'images/pic3.jpg'
             //image: 'https://unsplash.it/350/200/?random'

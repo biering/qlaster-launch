@@ -44,7 +44,7 @@ In the following you see a demo which visualize the newest feed in a specific st
             <img src=""/>
         </div>
     </div>
-    <svg id="newestFeedVisDemo" width="400" height="400"></svg>
+    <svg id="newestFeedVisDemo" width="700" height="400"></svg>
     <div id="key-hint">
         You can use the <i class="ion-arrow-left-a"></i> and <i class="ion-arrow-right-a"></i> keys to navigate through the posts.
     </div>

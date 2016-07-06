@@ -9,12 +9,13 @@ p {
 #key-hint {
     position: absolute;
     font-size: 14px;
-    color: #777;
+    color: #999;
     font-weight: 300;
     font-family: "OpenSans", sans-serif;
-    width: 200px;
+    width: 220px;
     right: 50px;
     bottom: 50px;
+    font-weight: 600;
 
     i {
         color: #333;
@@ -30,8 +31,10 @@ p {
 }
 
 .action-sort {
+    z-index: 100000;
     position: absolute;
-    right: 50px;
+    left: 30px;
+    top: 20px;
     border: 1px solid #fafafa;
     border-radius: 3px;
     font-weight: bold;
@@ -49,7 +52,11 @@ p {
 }
 
 #newestFeedVisDemo {
-    float: right;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    left: 0;
+    right: 0;
 
     .node {
         stroke-width: 0px;
@@ -76,9 +83,9 @@ p {
     position: absolute;
     display: none;
     top: 40px;
-
+    z-index: 10000;
     border: 1px solid #fafafa;
-    background-color: #fff;
+    background-color: #fafafa;
     border-radius: 4px;
     position: absolute;
     max-width: 350px;
@@ -111,6 +118,7 @@ p {
             font-size: 14px;
             color: #999;
             padding-right: 40px;
+            font-weight: 600;
         }
     }
 
