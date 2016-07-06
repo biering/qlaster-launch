@@ -6,6 +6,21 @@ p {
     color: #333 !important;
 }
 
+#key-hint {
+    position: absolute;
+    font-size: 14px;
+    color: #777;
+    font-weight: 300;
+    font-family: "OpenSans", sans-serif;
+    width: 200px;
+    right: 50px;
+    bottom: 50px;
+
+    i {
+        color: #333;
+    }
+}
+
 #startDemo {
     display: none;
 }
@@ -42,7 +57,6 @@ p {
 
     .hovered {
         stroke-width: 18px;
-        stroke: rgba(0, 0, 0, 0.3);
         transition: .4s stroke-width;
     }
 

@@ -4,6 +4,7 @@
     var grid = window.NodeGrid();
     var limit = 35;
     var running = false;
+    var currentHighlighted = null;
 
     var colors = [
         '#6fa055',
@@ -49,6 +50,16 @@
 
         running = true;
         timeout(0);
+    };
+
+    window.onkeydown = function (e) {
+        var key = e.keyCode ? e.keyCode : e.which;
+        if (key === 37) { // left
+            highlightPreviousNode();
+        } else if (key === 39) { // right
+            console.log('right');
+            highlightNextNode();
+        }
     };
 
     function sortDemo () {
@@ -116,21 +127,45 @@
         tooltip.css('display', 'block');
     }
 
-    /*function highlightNextNode(currentIndex) {
-        currentIndex = currentIndex || 0;
-        for (var i = currentIndex, l = layout.nodes().length; i < l; i++) {
+    function makeVisited() {
+        d3.selectAll('.node').each(function (node) {
+            var $el = d3.select('#node-' + node.id);
+            if ($el.attr('class') === 'node hovered')
+                $el.attr('class', 'node visited');
+        });
+    }
+
+    // hier mit gedächtnis?
+    function highlightPreviousNode() {
+        makeVisited();
+        var index = (currentHighlighted) ? parseInt(currentHighlighted) - 1 : 0;
+        var node = layout.nodes()[index];
+        if (node) {
+            highlightNode(d3.select('#node-' + node.id), node);
+        }
+    }
+
+    function highlightNextNode() {
+        makeVisited();
+        var index = (currentHighlighted) ? parseInt(currentHighlighted) : 0;
+        for (var i = index, l = layout.nodes().length; i < l; i++) {
             var node = layout.nodes()[i];
             if (!node.visited) {
-                highlightNode()
+                highlightNode(d3.select('#node-' + node.id), node);
+                return;
             }
         }
-    }*/
+    }
 
-    function highlightNode(node, d) {
-        displayTooltip(d);
-        node
+    function highlightNode($node, d) {
+        currentHighlighted = d.id;
+        d.visited = true;
+        var data = d.data;
+        displayTooltip(data);
+        $node
             .attr('class', 'node hovered')
             .style('stroke', function (d) {
+                console.log(d);
                 return d.color;
             })
             .style('stroke-opacity', 0.3);
@@ -154,7 +189,7 @@
                 return d.color;
             })
             .on('mouseover', function (d) {
-                highlightNode(d3.select(this), d.data);
+                highlightNode(d3.select(this), d);
             })
             .on('mouseout', function (d) {
                 d3.select(this).attr('class', 'node visited');
@@ -187,15 +222,5 @@ window.onload = function () {
     if (place > trigger) {
         window.startDemo();
         this.removeEventListener('scroll', arguments.callee, false);
-    }
-};
-
-window.onkeydown = function (e) {
-    var key = e.keyCode ? e.keyCode : e.which;
-    console.log(key);
-    if (key === 37) { // left
-        highlightPreviousNode();
-    } else if (key === 39) { // right
-        highlightNextNode(currentIndex);
     }
 };
