@@ -285,3 +285,30 @@ a[data-tooltip]:hover:after, a[data-tooltip]:hover:before {
     }
 
 }
+
+.team-members {
+    .team-member {
+        margin-bottom: 40px;
+
+        div:first-child {
+            float: left;
+        }
+
+        div:last-child {
+            padding-left: 90px;
+        }
+
+        .team-image {
+            border-radius: 50%;
+            width: 70px !important;
+            height: 70px !important;
+            border: 1px solid #fafafa;
+        }
+    }
+}
+
+.author {
+    float: right;
+    font-weight: bold;
+    color: #bbb;
+}

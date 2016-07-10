@@ -1,8 +1,8 @@
 
-Nowadays we have many different social networks and services for different needs. At the one hand this is very good for the individuality and a broad range of social media but on the other hand it's hard to see only what you want to see and to not lose the overview. Often you can only subscribe or connect to a specific user without focusing on the content. What if you want to get specific content from a wide spectrum of sources? Register to different networks and subscribe every user who could have something to do with that topic? Why you don't let **qlaster** do that for you?
+Nowadays we have many different social networks and services for different needs. At the one hand this is very good for the individuality and a broad range of social media but on the other hand, it's hard to see only what you want to see and to not lose the overview. Often you can only subscribe or connect to a specific user without focusing on the content. What if you want to get specific content from a wide spectrum of sources? Register to different networks and subscribe every user who could have something to do with that topic? Why don't you let **qlaster** do that for you?
 
-> **Our plan is to create a meta network which helps you to manage your newsfeed, chats and events and providing a more modern interface with an interactive visualization.<br/>
-You can connect your account with all <a href="#" data-tooltip="The usage is limited to the provided APIs">common social networks</a> to browse news, users, chats and to share content yourself. For that you can create social streams on which you have the possibilty to attach filters to adapt them (the streams) to your needs. With that you could achieve only seeing what you want to see on your stream actually.**
+> **Our plan is to create a meta-network which helps you to manage your newsfeed, chats and events and providing a more modern interface with an interactive visualization.<br/>
+You can connect your account with all <a href="#" data-tooltip="The usage is limited to the provided APIs">common social networks</a> to browse news, users, chats and to share content yourself. For that, you can create social streams on which you have the possibility to attach filters to adapt them (the streams) to your needs. With that, you could achieve only seeing what you want to see on your stream actually.**
 
 You can filter the networks in a massive range of content, from filtering the content of a user up to search a specific keyphrase. You can also make your stream public to share it with your friends or the whole community.
 
@@ -21,10 +21,10 @@ _Figure 1. With qlaster you can create multiple streams to have a customized new
 ### Visualize to reinvent your social network experience
 <div id="startDemo"></div>
 
-We think the visualization of common social networks is not suitable for the modern web. There are many other ways to provide a better view to the social media data. Today, all you got is a never ending list to scroll.
+We think the visualization of common social networks is not suitable for the modern web. There are many other ways to provide a better view of the social media data. Today, all you got is a never ending list to scroll.
 
-That's the reason why we want to achieve a great and modern visualization for different social media data allowing the user to work with these information in a very fast and productive way. Also we were planning a network visualization about the connections between users in a cluster-like representation. Otherwise we want to create an overview for your chat connections.
-In the following you see a demo which visualize the newest feed in a specific stream. With that you can check the newest posts you got without scrolling down the page.
+That's the reason why we want to achieve a great and modern visualization for different social media data allowing the user to work with this information in a very fast and productive way. Also, we were planning a network visualization about the connections between users in a cluster-like representation. Otherwise, we want to create an overview of your chat connections.
+In the following, you see a demo which visualizes the newest feed in a specific stream. With that, you can check the newest posts you got without scrolling down the page.
 
 
 <!-- aker, erste gleich aktiv -->
@@ -80,7 +80,7 @@ In the following you see a demo which visualize the newest feed in a specific st
 <div style="text-align:center;"><img src="images/dots.png"/></div>
 
 _Here you see a small <a href="#" data-tooltip="The demo is to show the idea but isn't finished yet.">demo</a> of a stream. You can hover the nodes to see a
-description of the content. In the real application you would have some additional options but this is explained later. The great advantage of this concept is to see all new content at a glance without scrolling down. The color could show different aspects._
+description of the content. In the real application, you would have some additional options but this is explained later. The great advantage of this concept is to see all new content at a glance without scrolling down. The color could show different aspects._
 
 
 
@@ -91,8 +91,8 @@ description of the content. In the real application you would have some addition
 - Creating fully customizable streams to organize and control what you want to see
 - Link your account to multiple networks like Twitter, Facebook etc. to get a wide spectrum of data
     - You can use the networks even if you are not directly active there
-- Having an optimal experience on small mobile devices due to space filling visualizations
-- Interactive visualizations for streams, chat, content sharing etc. to have a modern, productive and fast interface to interact with these information
+- Having an optimal experience on small mobile devices due to space-filling visualizations
+- Interactive visualizations for streams, chat, content sharing etc. to have a modern, productive and fast interface to interact with this information
 - Connection to users with the help of email addresses even when they aren't on qlaster
 
 <!--- An interactive cluster view where you can organize your friends, create events, share content in specific groups and sort and filter the content for what you want to see
@@ -102,11 +102,40 @@ description of the content. In the real application you would have some addition
 
 ### The Team
 
-- **Christoph Biering**. _Founder_ - Master student of computer science at the TU Dresden. I have started the project and partly I'll take care of the concept. Development of the webserver with the frontend.
+<div class="team-members">
+    <div class="team-member">
+        <div>
+            <!--<img src="images/ava01_white.png" class="team-image"/>-->
+        </div>
+        <div>
+            <p>
+                <b>Christoph Biering</b>. <i>Founder</i> - Master student of computer science at the TU Dresden. I have started the project and partly I'll take care of the concept. Development of the webserver with the frontend.
+            </p>
+         </div>
+    </div>
 
-- **Christian Winkel**. _Co-Founder_ - Master of computer science. Professional JavaEE developer. Developing on the backend JavaEE server.
+    <div class="team-member">
+        <div>
+            <!--<img src="images/ChristianWinkel.png" class="team-image"/>-->
+        </div>
+        <div>
+            <p>
+                <b>Christian Winkel</b>. <i>Co-Founder</i> - Master of computer science. Professional JavaEE developer. Developing on the backend JavaEE server.
+            </p>
+         </div>
+    </div>
 
-- **Lars Engeln**. _Co-Founder_ - Master student of media computer science at the TU Dresden. Developing of the visualization concerns.
+    <div class="team-member">
+        <div>
+            <!--<img src="images/LarsEngeln_sw.png" class="team-image"/>-->
+        </div>
+        <div>
+            <p>
+                <b>Lars Engeln</b>. <i>Co-Founder</i> - Master student of media computer science at the TU Dresden. Developing of the visualization concerns.
+            </p>
+         </div>
+    </div>
+</div>
 
 ---
 
@@ -114,3 +143,6 @@ description of the content. In the real application you would have some addition
 We are only a small group of developers, but we have the passion and skill to implement the idea and implement our vision.
 But we need **you** to evaluate the idea and concept. Please write your opinion in the comments or send us an <a href="mailto:qlaster@protonmail.com">email</a>.<br />
 Any feedback is greatly appreciated! Thank you.
+
+<br /><br />
+<div class="author">Author: Christoph Biering</div>
