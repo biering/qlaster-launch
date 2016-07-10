@@ -145,4 +145,4 @@ But we need **you** to evaluate the idea and concept. Please write your opinion 
 Any feedback is greatly appreciated! Thank you.
 
 <br /><br />
-<div class="author">Author: Christoph Biering</div>
+<div class="post-author">Author: Christoph Biering</div>
