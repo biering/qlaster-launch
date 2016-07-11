@@ -5,6 +5,7 @@
     var limit = 35;
     var running = false;
     var currentHighlighted = null;
+    var currentFilter = 'all';
 
     var colors = [
         '#6fa055',
@@ -41,6 +42,35 @@
             .attr('cx', function(d) { return d.x; })
             .attr('cy', function(d) { return d.y; });
     });
+
+    $('.active-filter').click(function () {
+        $('.filters').toggleClass('show');
+    });
+
+    $('.filter').click(function () {
+        var filter = $(this).data('filter'),
+            name = $(this).find('.name').html();
+
+        $('.filter').removeClass('selected');
+        $(this).addClass('selected');
+
+        $('.active-filter').html(name);
+        svg.selectAll('.node').classed('blacked', false);
+
+
+        if (filter !== 'all') {
+             fadeOut('#' + filter);
+        }
+    });
+
+    function fadeOut(filter) {
+        d3.selectAll('.node')
+            .each(function (d) {
+                if (d.color !== filter) {
+                    d3.select('#node-' + d.id).classed('blacked', true);
+                }
+            });
+    }
 
     // sachen löschen
     // und neu hinzufügen auch dupl

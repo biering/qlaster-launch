@@ -178,8 +178,10 @@ window.NodeGrid = function () {
             if (sort)
                 nodes.sort(sort);
 
+            // top left to bottom right
+
             toploop:
-            for (var x = cols - 0.5; x > 0; x -= 1)
+            for (var x = 0.5; x < cols; x += 1)
             for (var y = 0.5; y < rows; y += 1, i += 1) {
                 node = nodes[i];
                 if (!node)
