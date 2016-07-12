@@ -5,15 +5,14 @@ Nowadays we have many different social networks and services for different needs
 
 The social media information your stream contains **depends on the filters which are attached**. Filters can be created and shared by every user and can become highly refined and tailored to filter the networks in a massive range of content.
 
-Suddenly you can have an **organized**, **content-focused** and **productive** news feed which you can tailor for your hobbies, work, just for fun or for everything else. The internet and social media platforms are growing every second massively, we want to help to preserve the overview, and you don't even have to be active on these networks directly. Imagine having Twitter, Reddit, Tumblr, etc. in one news feed combined.
+Suddenly you can have an **organized**, **content-focused** and **productive** news feed which you can tailor for your hobbies, work, just for fun or for everything else. The internet and social media platforms are growing every second massively, we want to help to preserve the overview, and you don't even have to be active on these networks directly. Imagine having Twitter, Reddit, Tumblr, etc. combined in one news feed.
 
 We want to optimize qlaster for mobile screen devices to bring the stream and filters only a swipe away.
-Our target user group are all users of social networks but especially users in the age of 16 to 40 years and for those who want to have more control what they see in their news feed.
+Our target user group are all users of social networks but especially users in the age of 16 to 40 years and  those who want to have more control about what they see in their news feed.
 
 ---
 
-
-### Easily see what happens recently
+### Easily see what happened recently
 <div id="startDemo"></div>
 
 We think the visualization of common social networks is not suitable for the modern web. There are many other ways to provide a better view of the social media data. Today, all you got is a never ending list to scroll.
@@ -136,7 +135,7 @@ When you read a post, it is moved into the stream history where you can filter a
         </div>
         <div>
             <p>
-                <b>Christoph Biering</b>. <i>Founder</i> - Master student of computer science at the TU Dresden. I have started the project and partly I'll take care of the concept. Development of the webserver with the frontend.
+                <b>Christoph Biering</b>. <i>Founder</i> - Master student of computer science at the TU Dresden. Started the project and partly take care of the concept. Development of the webserver with the frontend.
             </p>
          </div>
     </div>
