@@ -5,9 +5,9 @@ Nowadays we have many different social networks and services for different needs
 
 The social media information your stream contains **depends on the filters which are attached**. Filters can be created and shared by every user and can become highly refined and tailored to filter the networks in a massive range of content.
 
-Suddenly you can have an **organized**, **content-focused** and **productive** news feed which you can tailor for your hobbies, work, just for fun or for everything else. The internet and social media platforms are growing every second massively, we want to help to preserve the overview, and you don't even have to be active on these networks directly.
-We want to optimize qlaster for mobile screen devices to bring your stream everywhere.
+Suddenly you can have an **organized**, **content-focused** and **productive** news feed which you can tailor for your hobbies, work, just for fun or for everything else. The internet and social media platforms are growing every second massively, we want to help to preserve the overview, and you don't even have to be active on these networks directly. Imagine having Twitter, Reddit, Tumblr, etc. in one news feed combined.
 
+We want to optimize qlaster for mobile screen devices to bring the stream and filters only a swipe away.
 Our target user group are all users of social networks but especially users in the age of 16 to 40 years and for those who want to have more control what they see in their news feed.
 
 ---
