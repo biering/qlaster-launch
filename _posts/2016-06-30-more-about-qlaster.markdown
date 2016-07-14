@@ -100,7 +100,7 @@ In the following, you see a small demo which visualizes the recent stack on your
 <script src='js/d3.min.js'>{newline}</script>
 <script src='js/nodeGridDemo.js'>{newline}</script>
 <script src='js/snippets/feedData.js'>{newline}</script>
-<script src='js/snippets/newestFeedVisDemo2.js'>{newline}</script>
+<script src='js/snippets/newestFeedVisDemo.js'>{newline}</script>
 
 <div style="text-align:center;"><img src="images/dots.png"/></div>
 
